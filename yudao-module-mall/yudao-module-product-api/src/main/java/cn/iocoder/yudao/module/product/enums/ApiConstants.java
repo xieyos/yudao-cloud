@@ -5,7 +5,7 @@ import cn.iocoder.yudao.framework.common.enums.RpcConstants;
 /**
  * API 相关的枚举
  *
- * @author 芋道源码
+ * @author xieyos
  */
 public class ApiConstants {
 

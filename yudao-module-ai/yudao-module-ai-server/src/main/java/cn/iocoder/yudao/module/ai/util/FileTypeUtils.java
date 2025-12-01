@@ -7,7 +7,7 @@ import org.apache.tika.Tika;
 /**
  * 文件类型 Utils
  *
- * @author 芋道源码
+ * @author xieyos
  */
 @Slf4j
 public class FileTypeUtils {

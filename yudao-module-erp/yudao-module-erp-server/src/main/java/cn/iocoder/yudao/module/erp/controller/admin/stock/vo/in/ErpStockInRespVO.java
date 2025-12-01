@@ -28,7 +28,7 @@ public class ErpStockInRespVO {
 
     @Schema(description = "供应商编号", example = "3113")
     private Long supplierId;
-    @Schema(description = "供应商名称", example = "芋道")
+    @Schema(description = "供应商名称", example = "xieyos")
     @ExcelProperty("供应商名称")
     private String supplierName;
 
@@ -53,12 +53,12 @@ public class ErpStockInRespVO {
     @ExcelProperty("备注")
     private String remark;
 
-    @Schema(description = "附件 URL", example = "https://www.iocoder.cn/1.doc")
+    @Schema(description = "附件 URL", example = "https://www.qtvz.com/1.doc")
     private String fileUrl;
 
-    @Schema(description = "创建人", example = "芋道")
+    @Schema(description = "创建人", example = "xieyos")
     private String creator;
-    @Schema(description = "创建人名称", example = "芋道")
+    @Schema(description = "创建人名称", example = "xieyos")
     private String creatorName;
 
     @Schema(description = "创建时间", requiredMode = Schema.RequiredMode.REQUIRED)

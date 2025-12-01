@@ -55,7 +55,7 @@ public class IotDeviceController {
         return success(true);
     }
 
-    // TODO @芋艿：参考阿里云：1）绑定网关；2）解绑网关
+    // TODO @xieyos：参考阿里云：1）绑定网关；2）解绑网关
 
     @PutMapping("/update-group")
     @Operation(summary = "更新设备分组")

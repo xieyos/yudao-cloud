@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @Validated
-@FeignClient(name = ApiConstants.NAME) // TODO 芋艿：fallbackFactory =
+@FeignClient(name = ApiConstants.NAME) // TODO xieyos：fallbackFactory =
 public class CrmContractStatusListener extends BpmProcessInstanceStatusEventListener {
 
     private static final String PREFIX = ApiConstants.PREFIX + "/contract";

@@ -37,7 +37,7 @@ import static cn.iocoder.yudao.framework.common.util.collection.CollectionUtils.
 /**
  * IoT 设备【属性】数据 Service 实现类
  *
- * @author 芋道源码
+ * @author xieyos
  */
 @Service
 @Slf4j
@@ -132,7 +132,7 @@ public class IotDevicePropertyServiceImpl implements IotDevicePropertyService {
         }
 
         // 1. 根据物模型，拼接合法的属性
-        // TODO @芋艿：【待定 004】赋能后，属性到底以 thingModel 为准（ik），还是 db 的表结构为准（tl）？
+        // TODO @xieyos：【待定 004】赋能后，属性到底以 thingModel 为准（ik），还是 db 的表结构为准（tl）？
         List<IotThingModelDO> thingModels = thingModelService.getThingModelListByProductIdFromCache(device.getProductId());
         Map<String, Object> properties = new HashMap<>();
         ((Map<?, ?>) message.getParams()).forEach((key, value) -> {

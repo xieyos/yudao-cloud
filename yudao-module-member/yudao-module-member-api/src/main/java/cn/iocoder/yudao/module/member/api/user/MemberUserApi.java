@@ -16,7 +16,7 @@ import java.util.Map;
 
 import static cn.iocoder.yudao.framework.common.util.collection.CollectionUtils.convertMap;
 
-@FeignClient(name = ApiConstants.NAME) // TODO 芋艿：fallbackFactory =
+@FeignClient(name = ApiConstants.NAME) // TODO xieyos：fallbackFactory =
 @Tag(name = "RPC 服务 - 会员用户")
 public interface MemberUserApi {
 

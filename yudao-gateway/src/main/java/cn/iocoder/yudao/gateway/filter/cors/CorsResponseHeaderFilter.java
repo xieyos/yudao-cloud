@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
  *
  * 参考文档：<a href="https://blog.csdn.net/zimou5581/article/details/90043178" />
  *
- * @author 芋道源码
+ * @author xieyos
  */
 @Component
 public class CorsResponseHeaderFilter implements GlobalFilter, Ordered {

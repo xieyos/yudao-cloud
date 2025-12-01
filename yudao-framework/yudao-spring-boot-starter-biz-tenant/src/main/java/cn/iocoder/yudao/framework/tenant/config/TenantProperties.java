@@ -10,7 +10,7 @@ import java.util.Set;
 /**
  * 多租户配置
  *
- * @author 芋道源码
+ * @author xieyos
  */
 @ConfigurationProperties(prefix = "yudao.tenant")
 @Data

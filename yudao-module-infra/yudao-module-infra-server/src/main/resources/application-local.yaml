@@ -143,11 +143,11 @@ logging:
     cn.iocoder.yudao.module.infra.dal.mysql: debug
     cn.iocoder.yudao.module.infra.dal.mysql.logger.ApiErrorLogMapper: INFO # 配置 ApiErrorLogMapper 的日志级别为 info，避免和 GlobalExceptionHandler 重复打印
     cn.iocoder.yudao.module.infra.dal.mysql.file.FileConfigMapper: INFO # 配置 FileConfigMapper 的日志级别为 info
-    org.springframework.context.support.PostProcessorRegistrationDelegate: ERROR # TODO 芋艿：先禁用，Spring Boot 3.X 存在部分错误的 WARN 提示
+    org.springframework.context.support.PostProcessorRegistrationDelegate: ERROR # TODO xieyos：先禁用，Spring Boot 3.X 存在部分错误的 WARN 提示
 
---- #################### 芋道相关配置 ####################
+--- #################### xieyos相关配置 ####################
 
-# 芋道配置项，设置当前项目所有自定义的配置
+# xieyos配置项，设置当前项目所有自定义的配置
 yudao:
   env: # 多环境的配置项
     tag: ${HOSTNAME}

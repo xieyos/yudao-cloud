@@ -104,8 +104,8 @@ spring:
         instance:
           service-host-type: IP # 注册实例时，优先使用 IP [IP, HOST_NAME, CANONICAL_HOST_NAME]
 
---- #################### 芋道相关配置 ####################
+--- #################### xieyos相关配置 ####################
 
-# 芋道配置项，设置当前项目所有自定义的配置
+# xieyos配置项，设置当前项目所有自定义的配置
 yudao:
   demo: true # 关闭演示模式

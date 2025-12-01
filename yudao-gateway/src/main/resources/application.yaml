@@ -253,7 +253,7 @@ knife4j:
         service-name: iot-server
         url: /admin-api/iot/v3/api-docs
 
---- #################### 芋道相关配置 ####################
+--- #################### xieyos相关配置 ####################
 
 yudao:
   info:
