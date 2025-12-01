@@ -162,6 +162,7 @@ public class YudaoWebAutoConfiguration {
      */
     @Bean
     @LoadBalanced
+    @Primary
     public RestTemplate loadBalancedRestTemplate(RestTemplateBuilder restTemplateBuilder) {
         return restTemplateBuilder.build();
     }
