@@ -26,7 +26,7 @@ public class TimestampLocalDateTimeSerializer extends JsonSerializer<LocalDateTi
         String fieldName = gen.getOutputContext().getCurrentName();
         Class<?> clazz = gen.getOutputContext().getCurrentValue().getClass();
         Field field = ReflectUtil.getField(clazz, fieldName);
-        // 情况一：有 JsonFormat 自定义注解，则使用它。https://github.com/YunaiV/ruoyi-vue-pro/pull/1019
+        // 情况一：有 JsonFormat 自定义注解，则使用它。https://github.com/xieyos/pull/1019
         JsonFormat[] jsonFormats = field.getAnnotationsByType(JsonFormat.class);
         if (jsonFormats.length > 0) {
             String pattern = jsonFormats[0].pattern();

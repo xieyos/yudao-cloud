@@ -30,7 +30,7 @@
 
     <name>${project.artifactId}</name>
     <description>xieyos项目基础脚手架</description>
-    <url>https://github.com/YunaiV/ruoyi-vue-pro</url>
+    <url>https://github.com/xieyos</url>
 
     <properties>
         <revision>2025.11-SNAPSHOT</revision>
