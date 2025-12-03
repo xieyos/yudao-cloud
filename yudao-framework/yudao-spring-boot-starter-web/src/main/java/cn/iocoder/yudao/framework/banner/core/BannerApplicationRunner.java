@@ -20,7 +20,7 @@ public class BannerApplicationRunner implements ApplicationRunner {
         ThreadUtil.execute(() -> {
             ThreadUtil.sleep(1, TimeUnit.SECONDS); // 延迟 1 秒，保证输出到结尾
             log.info("""
-                    ----------------------------------------------------------
+                    \n----------------------------------------------------------
                     \t\
                     项目启动成功！
                     ----------------------------------------------------------""");
